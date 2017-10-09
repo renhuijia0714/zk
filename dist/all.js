@@ -1,0 +1,1 @@
+function removeSame(r){for(var e=[],a=0;a<r.length;a++)-1!==e.indexOf(r[a])&&e.push(r[a]);return e}function removeSame(r){var e=[];return r.join().reverse().split().forEach(function(r,a){-1!==e.indexOf(r)&&e.unshift(r)}),e}var arr=[1,2,3,4,5,6,6,3,4];removeSame(arr),removeSame(arr=["a","d","v","d","g","a"]);
